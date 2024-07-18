@@ -1,0 +1,48 @@
+body {
+    background-color: #f3e5f5; /* Fondo suave lila */
+    font-family: 'Arial', sans-serif;
+    position: relative;
+    overflow-x: hidden;
+    color: #4a148c; /* Texto principal en morado oscuro */
+}
+
+h2 {
+    color: #6a1b9a; /* Morado oscuro */
+    margin-top: 50px;
+    text-align: center;
+}
+
+.btn-secondary {
+    font-size: 1.25em;
+    padding: 10px 20px;
+    background-color: #8e24aa; /* Botón en morado medio */
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #6a1b9a; /* Cambio de color al pasar el ratón */  
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto; /* Centrado horizontal y margen superior */
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center;
+}
+
+#confetti-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1000;
+}
